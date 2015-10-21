@@ -1,0 +1,43 @@
+    .jumbotron-custom {
+      background-color: #F6F6F6;
+      color: #1F1F1F;
+    }
+    .navbar-custom {
+      height: 82px;
+      background-color: #ffffff;
+      border-bottom-color: #3ba2db;
+      margin-bottom: 0;
+    }
+    .slogan {
+      font-size: 80%;
+      color: #918e93;
+    }
+    .navbar-custom .navbar-nav > li > a {
+      color: #3ba2db;
+    }
+    .navbar-brand {
+      padding: 0;
+    }
+    .navbar-custom .navbar-right > li > a  {
+      color: #013e56;
+    }
+    .scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}

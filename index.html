@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IntelMQ System">
+    <meta name="keywords" content="IntelMQ, ContactDB, CTI, feeds, malware, threat, cyber, intelligence, information exchange, sharing, pastebin, twitter, open source">
+    <meta name="author" content="">
+    <title>IntelMQ is a solution to process data feeds, pastebins, tweets throught a message queue</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/intelmq.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-custom">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-1">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><img alt="Brand" src="./images/intelmq_header.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-7">
+                    <div class="row">
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a>
+                                </li>
+                                <li><a href="#intelmq" class="scroll-link" data-id="intelmq"><span class="glyphicon glyphicon-globe"></span> IntelMQ</a>
+                                </li>
+                                <li><a href="#intelmq-manager" class="scroll-link" data-id="intelmq-manager"><span class="glyphicon glyphicon-wrench"></span> IntelMQ-Manager</a>
+                                </li>
+                                <li><a href="#contactdb" class="scroll-link" data-id="contactdb"><span class="glyphicon glyphicon-user"></span> ContactDB</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="https://github.com/certtools/intelmq">IntelMQ Github repository</a>
+                                        </li>
+                                        <li><a href="https://github.com/certtools/intelmq-manager">IntelMQ-Manager Github repository</a>
+                                        </li>
+                                        <li><a href="https://github.com/certtools/contactdb">ContactDB Github repository</a>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="https://github.com/certtools/intelmq/wiki/Data-Harmonization">Data harmonization</a>
+                                        </li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="http://www.enisa.europa.eu/activities/cert/support/incident-handling-automation">ENISA - IHAP</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row slogan">
+                        <img src="./images/Octocat.png" height="16"><strong>IntelMQ</strong> is a solution to process data feeds, pastebins, tweets throught a message queue.
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li>
+                            <a href="https://github.com/certtools/intelmq"><img src="./images/Octocat.png" height="16"> Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron jumbotron-custom">
+        <div class="container jumbotron-container">
+            <img src="./images/intelmq_carrousel.png" height="45">
+            <p>Isn't it sad to see all public and private feeds available and not use it properly because it's too much <b>"monkey"</b> work? Thanks to IntelMQ you can <b>collect</b> and <b>process</b> all of them <b>automatically</b> and without effort.</p>
+            <!-- <p><a class="btn btn-primary btn-lg scroll-link" data-id="intelmq" href="#intelmq" role="button">Learn more &raquo;</a> -->
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h2>IntelMQ </h2>
+                <p><span class="label label-primary">Core</span>
+                    <span class="label label-success">Automation</span>
+                </p>
+                <p>IntelMQ give to incident responders an easy way to collect & process threat intelligence thus improving the incident handling processes of security teams.</p>
+                <!-- <p><a class="btn btn-default scroll-link" data-id="intelmq" href="#intelmq" role="button">View details &raquo;</a> -->
+                <p><a class="btn btn-default scroll-link" data-id="intelmq" href="https://github.com/certtools/intelmq" role="button">View details &raquo;</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>IntelMQ-Manager</h2>
+                <p><span class="label label-primary">Core</span>
+                    <span class="label label-success">Automation</span>
+                    <span class="label label-warning">Add-on</span>
+                </p>
+                <p>IntelMQ Manager is a graphical interface to manage configurations for the IntelMQ framework.</p>
+                <br>
+                <!-- <p><a class="btn btn-default scroll-link" data-id="intelmq-manager" href="#intelmq-manager" role="button">View details &raquo;</a> -->
+                <p><a class="btn btn-default scroll-link" data-id="intelmq-manager" href="https://github.com/certtools/intelmq-manager" role="button">View details &raquo;</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>ContactDB</h2>
+                <p><span class="label label-warning">Add-on</span>
+                </p>
+                <p>The ContactDB project was initiated to cover the need for a tool to maintain contacts for CSIRT teams.</p>
+                <br>
+                <!-- <p><a class="btn btn-default scroll-link" data-id="contactdb" href="#contactdb" role="button">View details &raquo;</a> -->
+                <p><a class="btn btn-default scroll-link" data-id="contactdb" href="https://github.com/certtools/contactdb" role="button">View details &raquo;</a>
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+    </div>
+
+    <!-- /container -->
+    <!--
+
+    <section class="success" id="intelmq">
+        IntelMQ
+        <br />
+        <a href="#" class="scroll-top">Top</a>
+        <br />TBD
+        <br />
+    </section>
+
+    <section class="success" id="intelmq-manager">
+        IntelMQ Manager
+        <br />
+        <a href="#" class="scroll-top">Top</a>
+        <br />TBD
+        <br />
+    </section>
+
+    <section class="success" id="contactdb">
+        ContactDB
+        <br />
+        <br />
+        <a href="#" class="scroll-top">Top</a>
+        <br />TBD
+        <br />
+    </section>
+    -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/intelmq.js"></script>
+</body>
+
+</html>
